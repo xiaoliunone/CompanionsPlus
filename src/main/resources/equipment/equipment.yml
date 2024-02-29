@@ -1,0 +1,15 @@
+# 宠物装备，方便直接使用指令获取
+equipment:
+  woodenSword:
+    name: "&a宠物新手长剑"
+    material: WOODEN_SWORD
+    custom-model-data: 0
+    isEnchant: true
+    lore:
+      - ''
+      - '&a宠物专属装备'
+      - '&c&l>> &a稀有度: &a高级'
+      - ''
+      - '&c&l>> &a宠物的第一把剑'
+    attribute:
+      - '&e物理攻击: ${level * 1}'

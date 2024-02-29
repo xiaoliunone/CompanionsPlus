@@ -1,0 +1,52 @@
+# 语言文件 [可选 中文简体:zh_CN]
+# 第一次修改语言文件,需重启生效
+language: zh_CN
+
+# 是否开启更新提醒,建议开启
+isCheckUpdate: true
+
+# op登录时候是否发送更新提醒
+isCheckUpdateToOpMsg: true
+
+# 激活码
+sign: 123456
+
+# buff类型 目前只支持 attribute_plus 或 sx_attribute 或 AttributeSystem 或 MythicLib
+buffType: "attribute_plus"
+
+# 基础配置
+settings:
+  # 设置取消聊天操作（如切换武器/名称）的关键词。
+  cancelKeyWord: "cancel"
+  # 设置最大能力等级-建议将级别保持在5以下。
+  maxAbilityLevel: 3
+  # 设置玩家可以设置的最大名称长度。
+  maxNameLength: 10
+  # 范围决定玩家能看到其他玩家宠物的距离。根据自己的需求进行更改，较大的范围可能会消耗更多资源。
+  packetSearchRange: 10, 10, 10
+  # 自定义隐藏宠物指令
+  vanish:
+    perms: essentials.vanish
+    commands: /v, /vanish
+  # 设置不希望玩家宠物使用的名称。
+  # companions.admin.blacklist - 允许您使用此权限节点覆盖黑名单系统。
+  blacklistedNames:
+    - "dick"
+    - "fuck"
+  # 设置在哪些世界中不希望使用宠物。
+  disabledWorlds:
+    - game
+    - world2
+
+# 宠物神秘箱
+items:
+  companionToken:
+    name: "&6&l神秘箱"
+    type: GHAST_TEAR
+    description:
+      - ""
+      - "&6&l手持一个该物品"
+      - "&6&l右键打开获得随机宠物"
+      - ""
+    particleAnimation: EXPLOSION_LARGE
+    soundOnUse: BLOCK_BEACON_POWER_SELECT

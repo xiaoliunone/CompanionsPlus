@@ -1,0 +1,100 @@
+ability:
+  fireball:
+    # 几率 百分之5
+    chance: 5
+  lightning:
+    chance: 5
+  dodge:
+    chance: 5
+  mining_vision:
+    # 高度
+    yLevel: 55
+  speed_burst:
+    # 以秒为单位设置每个级别的持续时间增加多少。
+    duration: 2
+    chance: 5
+  vectorjump:
+    # 播放声音
+    sound: ENTITY_MAGMA_CUBE_JUMP
+    # 冷却
+    cooldown: 5
+    # 位置
+    distanceMultiplier: 2
+  regeneration:
+    # 概率 百分之10
+    chance: 10
+    # 持续时间
+    duration: 5
+  increase_damage:
+    chance: 10
+    duration: 5
+  speed:
+    chance: 10
+    duration: 5
+  glowing:
+    chance: 10
+    duration: 5
+  fire_resistance:
+    chance: 10
+    duration: 5
+  invisibility:
+    chance: 10
+    duration: 5
+  jump:
+    chance: 10
+    duration: 5
+  damage_resistance:
+    chance: 10
+    duration: 5
+  fast_digging:
+    chance: 10
+    duration: 5
+  absorption:
+    chance: 10
+    duration: 5
+  luck:
+    chance: 10
+    duration: 5
+  wither:
+    chance: 10
+    duration: 5
+  slow:
+    chance: 10
+    duration: 5
+  slow_digging:
+    chance: 10
+    duration: 5
+  confusion:
+    chance: 10
+    duration: 5
+  weakness:
+    chance: 10
+    duration: 5
+  levitation:
+    chance: 10
+    duration: 5
+  poison:
+    chance: 10
+    duration: 5
+  dolphins_grace:
+    chance: 10
+    duration: 5
+  water_breathing:
+    chance: 10
+    duration: 5
+  hunger:
+    chance: 10
+    duration: 5
+  fling:
+    chance: 10
+    distance: 0.8
+    # 投掷 每级 概率提升数值
+    increaseChanceByLevel: 5
+  command:
+    # 投掷 每级 概率提升数值
+    increaseChanceByLevel: 5
+  enderman:
+    chance: 10
+    # 末影珍珠 每级 概率提升数值
+    increaseChanceByLevel: 5  
+  

@@ -1,0 +1,27 @@
+# gui标题
+title: "&0请选择宠物装备"
+size: 54
+
+# 返回按钮
+back:
+  enable: true
+  index: 49
+  name: "   &8[&a返回&8]"
+  material: BARRIER
+  isEnchant: false
+  lore:
+    - '&f- &7点击返回'
+  custom-model-data: 0
+
+# 自定义按钮 你可以在这无限扩展你想要的按钮，格式跟这个例子返回一样就好
+custom:
+  # 分隔板
+  pane:
+    enable: true
+    index: 45,46,47,48,50,51,52,53
+    material: black_stained_glass_pane
+    isEnchant: false
+    name: "        &8[&7分割板&8]"
+    lore:
+      - "&7哎呀,不要随便戳人家啦"
+    custom-model-data: 0

@@ -1,0 +1,87 @@
+# 自定义能力有：'LEAP'（跳跃），'FLY'（飞行），'DODGE'（闪避），'FIREBALL'（火球），'SPEED_BURST'（加速爆发），
+# 'MINING_VISION'（挖掘视觉），'LIGHTNING'（闪电），'FLING'（投掷），'ENDERMAN'（末影人），'COMMAND'（命令）。
+# 请阅读维基了解如何使用 COMMAND 能力。
+
+# 自定义能力分为两个类别，一个是 '_ATTACK_CHANCE'（攻击几率），另一个是 '_DEFENSE_CHANCE'（防御几率）。
+
+# ATTACK_CHANCE - 当玩家攻击具有此能力的伙伴持有者时，攻击者有机会在 x 时间内获得该能力（可在 config.yml 中配置）。
+#  使用示例：WITHER_ATTACK_CHANCE
+
+# _DEFENSE_CHANCE - 当具有此能力的伙伴持有者受到攻击时，他/她有机会获得此能力。
+# 使用示例：REGENERATION_DEFENSE_CHANCE
+
+# 这里列出了与 "_ATTACK_CHANCE" 和 "_DEFENSE_CHANCE"
+# 兼容的药水效果：REGENERATION（恢复），INCREASE_DAMAGE（增加伤害），GLOWING（发光），INVISIBILITY（隐身），SPEED（速度），
+# FIRE_RESISTANCE（火焰抗性），JUMP（跳跃），DAMAGE_RESISTANCE（伤害抗性），FAST_DIGGING（快速挖掘），ABSORPTION（吸收），
+# LUCK（幸运），WITHER（凋零），SLOW（缓慢），SLOW_DIGGING（缓慢挖掘），CONFUSION（迷乱），
+# WEAKNESS（虚弱），LEVITATION（漂浮），POISON（中毒）。
+# https://gitlab.com/Aster0/companions-reborn/wikis/SECTION-3/3.1-Custom-Abilities（获取更多信息）
+# 通过以下方式在 GUI 中显示伙伴的头颅 -- type: COMPANION_SKULL。
+
+companions:
+  # 宠物拥有查看权限 格式为:  companions.buy.reaper
+  reaper:
+    # 设置伙伴的唯一名称 - 这不会在 GUI 中反映出来。
+    name: "&8&l收割者"
+    # 名称可见 默认true
+    nameVisible: true
+    # 音效
+    sound: ENTITY_PARROT_IMITATE_ENDER_DRAGON
+    # 头颅材质
+    playerSkull: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTM5YjVkMmU2MjRjMTQ3ZWZlNDdiMTMwZTFjZGRiOGEzNzdjZGIzZTc3NDJiZDJjZjRkZGRmNjlhNjg5MjcyIn19fQ=="
+    # 这使用自定义模型数据，如果未设置为 NONE 则将覆盖玩家头颅。 如果要使用它，“MATERIAL:DATA”，例如：时钟材料和nbt数据值为15的 CLOCK:15
+    customModelData: NONE
+    # 如果您不想要武器，请设置为 NONE
+    weapon: STONE_HOE
+    # 如果您不想要能力，请设置为 NONE
+    ability: INCREASE_DAMAGE
+    # 单个宠物的最大等级上限会覆盖config中的配置
+    maxAbilityLevel: 5
+    # 属性
+    attribute:
+      - '&e物理攻击: ${level * 1}'
+    # 胸甲装备 NONE 为不设置
+    chestplate: LEATHER_CHESTPLATE
+    # 皮革颜色
+    leatherColor:
+      red: 32
+      green: 32
+      blue: 32
+    # 获取POSE角度，请访问此链接：https://haselkern.com/Minecraft-ArmorStand/
+    rightArmPose:
+      angle1: 360
+      angle2: 270
+      angle3: 286
+    leftArmPose:
+      angle1: 0
+      angle2: 0
+      angle3: 0
+    headPose:
+      angle1: 0
+      angle2: 0
+      angle3: 0
+    bodyPose:
+      angle1: 37
+      angle2: 0
+      angle3: 0
+    placement:
+      x: 0
+      y: 1.7
+      z: 0
+    GUI:
+      shop:
+        type: COMPANION_SKULL
+        amount: 1
+        name: "&6&l收割者"
+        price: 12000
+        description:
+          - " "
+          - "&7控制死亡的收割者,"
+          - "&7变成了你的宠物."
+          - " "
+          - "&6能力 -"
+          - "&e➩ 伤害增加"
+          - ""
+          - "&6&l点击召唤 &6收割者&7!"
+          - " "
+          - "&6价格: &e%price%"

@@ -1,0 +1,93 @@
+name: CompanionsPlus
+main: cn.handyplus.companions.CompanionsPlus
+version: 1.1.8
+author: handy
+description: 一款有点好用的宠物插件
+website: https://ricedoc.handyplus.cn/wiki/CompanionsPlus/log/
+api-version: 1.13
+folia-supported: true
+softdepend: [ PlaceholderAPI,Vault,PlayerPoints,AttributePlus,SX-Attribute,MythicLib,MMOItems,AttributeSystem ]
+commands:
+  companionsPlus:
+    description: 宠物插件
+    aliases: [ cp,cpp ]
+permissions:
+  companionsPlus.*:
+    description: 宠物插件
+    children:
+      companionsPlus.clearData: true
+      companionsPlus.coin: true
+      companionsPlus.convert: true
+      companionsPlus.forceActive: true
+      companionsPlus.forceDeActive: true
+      companionsPlus.forceUpgrade: true
+      companionsPlus.getIp: true
+      companionsPlus.give: true
+      companionsPlus.giveItem: true
+      companionsPlus.giveEquipment: true
+      companionsPlus.reload: true
+      companionsPlus.remove: true
+      companionsPlus.trade: true
+      companionsPlus.particle: true
+      companionsPlus.open: true
+      companionsPlus.shop: true
+  companionsPlus.clearData:
+    description: 清理数据
+    default: op
+  companionsPlus.coin:
+    description: 玩家宠物币
+    default: op
+  companionsPlus.convert:
+    description: 转换数据
+    default: op
+  companionsPlus.forceActive:
+    description: 强制让玩家召唤出他有的一个宠物
+    default: op
+  companionsPlus.forceDeActive:
+    description: 强制收回玩家正在召唤的宠物
+    default: op
+  companionsPlus.forceUpgrade:
+    description: 强制升级指定玩家的宠物且不扣升级费用
+    default: op
+  companionsPlus.getIp:
+    description: 获取ip
+    default: op
+  companionsPlus.give:
+    description: 给某玩家宠物
+    default: op
+  companionsPlus.giveItem:
+    description: 给某玩家宠物盒
+    default: op
+  companionsPlus.giveEquipment:
+    description: 给某玩家宠物装备
+    default: op
+  companionsPlus.reload:
+    description: 重载插件
+    default: op
+  companionsPlus.remove:
+    description: 移除玩家宠物
+    default: op
+  companionsPlus.trade:
+    description: 将自己指定的宠物给某个玩家
+    default: op
+  companionsPlus.particle:
+    description: 特效
+    default: op
+  companionsPlus.open:
+    description: 打开仓库GUI
+    default: true
+  companionsPlus.shop:
+    description: 打开商店GUI
+    default: true
+  companions.upgrade.ability:
+    description: 升级宠物
+    default: true
+  companions.upgrade.changeWeapon:
+    description: 变更宠物装备
+    default: true
+  companions.upgrade.rename:
+    description: 重新命名宠物
+    default: true
+  companions.upgrade.hideName:
+    description: 隐藏宠物名称
+    default: true

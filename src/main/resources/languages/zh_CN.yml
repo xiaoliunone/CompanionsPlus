@@ -1,0 +1,126 @@
+# 没权限时候提醒
+noPermission: "&c你没有权限执行此命令..."
+
+# 重载插件提醒
+reloadMsg: "&a插件重载完成"
+
+# placeholderAPI提醒
+placeholderAPISucceedMsg: "&a已成功加载placeholderApi"
+placeholderAPIFailureMsg: "&7你的服务端没有安装PlaceholderApi哦 未启用自定义变量功能."
+
+# vault提醒
+vaultSucceedMsg: "&a已成功加载Vault 启用经济相关功能."
+vaultFailureMsg: "&7你的服务端没有安装Vault 未启用经济相关功能."
+
+# PlayerPoints提醒
+playerPointsSucceedMsg: "&a已成功加载PlayerPoints 启用点券相关功能."
+playerPointsFailureMsg: "&7你的服务端没有安装PlayerPoints 未启用点券相关功能."
+
+# /cp help指令管理员出现的提醒
+helps:
+  - ""
+  - " &3Companions&bPlus &8&l▪ &7米饭出品～"
+  - ""
+  - " &7命令: &f/cp &8[...]"
+  - " &7参数:"
+  - "   &8&l- &f clearData [玩家名]  &7清理数据-all是全部"
+  - "   &8&l- &f coin [give/set/take] [玩家名] [数量]  &7给予/设置/拿走玩家宠物币"
+  - "   &8&l- &f convert [mysql/sqlite]  &7转换数据"
+  - "   &8&l- &f forceActive [玩家名][宠物名]  &7强制让玩家召唤出他有的一个宠物"
+  - "   &8&l- &f forceDeActive [玩家名]  &7强制收回玩家正在召唤的宠物"
+  - "   &8&l- &f forceUpgrade [玩家名] [升级类型]  &7强制升级指定玩家的宠物且不扣升级费用"
+  - "   &8&l- &f give [玩家名] [宠物]  &7给某玩家宠物"
+  - "   &8&l- &f giveItem [玩家名] [数量]  &7给玩家宠物礼盒"
+  - "   &8&l- &f giveEquipment [装备] [玩家名] [数量]  &7给玩家宠物装备"
+  - "   &8&l- &f reload   &7重载配置文件"
+  - "   &8&l- &f remove [玩家名] [宠物名]  &7移除玩家宠物"
+  - "   &8&l- &f trade [玩家名] [宠物名]  &7将自己指定的宠物给某个玩家"
+  - "   &8&l- &f particle   &7特效"
+  - "   &8&l- &f open  &7打开仓库GUI"
+  - "   &8&l- &f shop  &7打开商店GUI"
+
+
+succeedMsg: "&8[&a✔&8] &a命令执行成功"
+failureMsg: "&8[&c✘&8] &7命令执行失败"
+noPlayerFailureMsg: "&8[&a✘&8] &a该命令只能玩家执行."
+noAir: "&8[&a✘&8] &a你的手上并没有物品."
+paramFailureMsg: "&8[&a✘&8] &a参数错误."
+amountFailureMsg: "&8[&c✘&8] &7只能输入数字"
+notSoundMsg: "&8[&c✘&8] &7配置的音效 &a${sound} &7当前版本不存在"
+
+clearDataAllMsg: "&8[&a✔&8] &a清理全部数据成功"
+clearDataPlayerMsg: "&8[&a✔&8] &7清理玩家 &a${player} &7数据成功"
+playerNotOnline: "&8[&a✘&8] &7指定玩家 &a${player} &7不在线!"
+companionNotOwned: "&8[&a✘&8] &7玩家 &a${player} &7没有这个宠物!"
+forceActiveSuccess: "&8[&a✔&8] &7已为玩家 &a${player} &7设置了新的宠物."
+companionSetForPlayer: "&8[&a✔&8] &7你的宠物已变更为 &6${companion}"
+
+companionReNameForPlayer: "&8[&a✔&8] &7你正在使用的宠物名称已被Op变更为 &6${name}"
+companionHideNameForPlayer: "&8[&a✔&8] &7你正在使用的宠物名称已被Op隐藏"
+companionWeaponForPlayer: "&8[&a✔&8] &7你正在使用的宠物武器已被Op变更为 &6${name}"
+
+clearDataPlayerMsh: "&8[&a✔&8] &7已移除玩家&a${player}&7的数据"
+clearDataAllMsh: "&8[&a✔&8] &7已移除全部玩家数据"
+
+companionRemoved: "&7你已移除宠物"
+removeCompanion: "&7已收回你的宠物"
+forceUpgradeNotSuccessful: "&c错误! &7玩家没有正在召唤的宠物."
+
+abilityDowngradedMaxed: "&c宠物技能等级已达最低,你不能再降级了."
+forceUpgradeSuccessful: "&7升级成功!"
+abilityMaxed: "&c你现在召唤的宠物的能力已满级! &7你不能再升级它了！."
+
+companionNotFound: "&7找不到宠物,请输入正确的名称"
+companionAlreadyOwned: "&7玩家 &a${player} &7已经有了这个宠物了!"
+companionGiven: "&7给予成功."
+companionReceived: "&7你获得了宠物 ${companion}"
+playerNotFound: "&c存储文件中找不到该玩家的数据,即将创建该玩家数据"
+
+itemGiven: "&a已给予物品!"
+itemReceived: "&a你获得了物品 ${item}!"
+
+companionRemovedFromPlayer: "&c你的宠物&6${companion} &c已被移除!"
+
+tradeSuccessful: "&7成功将宠物交易给了 &a${player} &7!"
+tradeUnSuccessful: "&7你没有指定的 ${companion} 宠物!"
+tradeAlreadyOwn: "&7该玩家已拥有 ${companion}  宠物!"
+
+noCompanions: "&7指定玩家没有任何宠物!"
+noActiveCompanion: "&c你现在没有装备宠物!"
+
+toggledBack: "&7你收回了宠物!"
+toggledAway: "&7你放出了宠物!"
+
+playerInVanish: "&7宠物已被切换至隐身模式"
+
+abilityCoolDown: "&c技能冷却中!"
+
+playerInDisabledWorld: "&7宠物不能在这个世界使用!"
+actionSuccess: "&7已取消!"
+blacklistedName: "&c你设置的名称已列入黑名单!"
+maxNameLength: "&c名称超长,最大允许 &a${length}"
+
+notEnoughMoney: "&c你需要 &e${price} &c来这么做!"
+noUpgradeBuyPermission: "&7你没有权限购买升级"
+noEquipmentKey: "&7没有对应的装备"
+noPlayerEquipmentKey: "&7你背包中没有可使用的宠物装备"
+
+renamedCompanion: "&8[&a✔&8] &7你花费了 &a${price} &7将宠物名称变更为&a ${name}"
+changedCompanionWeapon: "&8[&a✔&8] &7你花费了 &6${price} &7将宠物的手持物品变更为 &6${name}"
+abilityBought: "&8[&a✔&8] &7你花费了 &6${price} &7来升级你的宠物 &f${companion}"
+hideCompanion: "&8[&a✔&8] &7你花费了 &6${price} &7切换了宠物名称的隐藏/显示."
+
+inRenaming: "&6输入你想设置的新名称. &7(&6!&7) &e当然也可以用颜色符号, 可以输入 T 来取消操作."
+
+companionsPrice: "宠物币"
+vaultPrice: "金币"
+pointPrice: "点券"
+
+hide: "隐藏"
+show: "显示"
+none: "无"
+
+# 用于输入指令时候tab自动提醒帮助(只建议翻译,不建议更改)
+tabHelp:
+  number: "&7请输入数量."
+  name: "&7请输入宠物名"
