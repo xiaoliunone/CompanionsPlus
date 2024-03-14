@@ -12,7 +12,7 @@
 
 代码开源
 
-[CompanionsPlus](https://github.com/handy-git/CompanionsPlus)  
+[CompanionsPlus](https://github.com/handyplus/CompanionsPlus)  
 [Companions-Open-Sourced](https://github.com/Aster0/Companions-Open-Sourced)
 
 ### 功能上跟Companions有啥区别?
@@ -55,6 +55,19 @@
 
 
 ### 小故事4
-> 破解联盟 正义！！！！ IA交流群 正义！！！！
+
+> 破解联盟 正义！！！
+
 ![1709178381751.jpg](https://img.fastmirror.net/s/2024/02/29/65dffe272a682.jpg)
+
+### 小故事5
+> 断章取义喜+1
+> 1. 他那什么链接应该说的是小故事2里的吧链接吧？？截图为什么不截图完整？下面的没有爱发电权限免费给开为什么不截图上？  
+> 2. 别人问@接挂播放这个人 你不在ds为啥会有插件？ 我回复别人的聊天一句CMI，完全没回复这句话就被截图进来了？ 
+
+![傻逼图.jpg](https://img.fastmirror.net/s/2024/03/04/65e56d9de13ed.jpg)
+> 很早很早之前的购买证明
+![cmi.png](https://img.fastmirror.net/s/2024/03/04/65e56d9b688ce.png)
+
+
 
